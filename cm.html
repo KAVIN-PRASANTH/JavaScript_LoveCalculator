@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>LOVERS</title>
+    <link href="cm.css" rel="stylesheet">
+</head>
+<body>
+   <h1 align="center">LOVERS</h1><hr><hr>
+   <div class="con">
+       <div class="b1">
+           <form onsubmit="return prasanth()" action="last.html">
+            <img src="love2.jpg" class="img1" ><br>
+            <input type="text" placeholder="your name" autofocus id="name1">
+            <div class="b2">
+             <img src="love3.jpg" class="img2"><br>
+             <input type="text" placeholder="lover name" id="name2">
+            </div>
+            <div class="rel">
+                <img src="love4.jpg" class="rel1">
+            </div>
+           <input type="submit" id="sublas">
+           </form>
+       </div>
+       <div class="b11"></div>
+       <div class="b22"></div>
+       <div class="b33"></div>
+       <div class="b44"></div>
+       <script>
+           function  prasanth(){
+               let lk=document.getElementById("name1");
+               let kl=document.getElementById("name2");
+               if(lk.value.trim()=="" ||kl.value.trim()=="" ){
+                   alert("INVALID NAME FORMATE");
+                   return false;
+               }
+               else{
+                   return true;
+                   
+               }
+               
+           }
+       </script>
+
+    
+</body>
+

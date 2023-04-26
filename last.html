@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>your score</title>
+    <link href="last.css" rel="stylesheet">
+</head>
+<body>
+   <div class="kavin" id="hii"></div>
+<form>
+<div >
+    <input type="button" value="CHECK&nbsp; LOVE&nbsp; SCORE" class="score" onclick="kavinprasanth()">
+</div>
+  </form>
+  <script>
+    function kavinprasanth(){
+      let per='1234567890';
+     let OTP='';
+      for(let i=0;i<1;i++){
+        let kav=per[Math.floor(Math.random()*10)];
+        OTP=kav;
+        
+      }
+       let pera='9999999889';
+     let OTPa='';
+      for(let i=0;i<1;i++){
+        let kava=pera[Math.floor(Math.random()*10)];
+        OTPa=kava;
+        
+      }
+      document.getElementById('hii').innerHTML=OTPa+OTP+"%love";
+      
+    }
+    
+    
+  </script>
+</body>
